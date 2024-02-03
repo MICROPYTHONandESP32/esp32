@@ -1,6 +1,7 @@
 HCSR04 software:
 
 1. Open thonny app.
-2. coppy main.py program
-3. Run it
-4. You done it! :)
+2. Coppy hcsr04.py library.
+3. Coppy main.py program.
+4. Run it.
+5. You done it! :)
