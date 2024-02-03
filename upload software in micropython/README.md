@@ -1,3 +1,5 @@
+INSTALL SOFTWARE TO ESP32:
+
 1. First go to the thonny application.
 
 2. Second go to /tools/options/interpreter/install or update micropytohn
