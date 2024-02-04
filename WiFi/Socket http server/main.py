@@ -38,31 +38,6 @@ def web_page():
   .button2{background-color: #4286f4;}</style></head><body> <h1>ESP Web Server</h1> 
   <p>GPIO state: <strong>""" + gpio_state + """</strong></p><p><a href="/?led=on"><button class="button">ON</button></a></p>
   <p><a href="/?led=off"><button class="button button2">OFF</button></a></p><table border="1">
- <tr> 
-    <th></th>
-    <th>Column Header 1</th>
-    <th>Column Header 2</th>
-    <th>Column Header 3</th>
-  </tr>
-  <tr>
-    <th>Row Header 1</th>
-    <td>Data</td>
-    <td>Data</td>
-    <td>Data</td>
-  </tr>
-  <tr> 
-    <th>Row Header 2</th>
-    <td>Data</td>
-    <td>Data</td>
-    <td>Data</td>
- </tr>
- <tr> 
-    <th>Row Header 3</th>
-    <td>Data</td>
-    <td>Data</td>
-    <td>Data</td>
- </tr>
-</table>
   </body></html>"""
   return html
 
@@ -73,8 +48,6 @@ s.listen(5)
 
 while True:
   conn, addr = s.accept()
-  if(str(addr)=="192.168.1.12", 50243):
-      print("Got a conection from lenovo")
   print('Got a connection from %s' % str(addr))
   request = conn.recv(1024)
   request = str(request)
