@@ -7,4 +7,4 @@ WiFi acccess point with esp32:
 
 
 
-Note: If you connect your dewice to your esp32 and write its ip address in web browser you should see a esp32's web page.
+Note: If you connect your device to your esp32 and write its ip address in web browser you should see a esp32's web page.
